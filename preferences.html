@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <img id="logoimg" src="logo.png" alt="Logo image" width="110">
+        <nav class="nav-bar">
+        <ul id="menu">
+        <li>
+        <a href="preferences.html">Set Preferences</a>
+        </li>
+        <li>
+        <a href="recommendations.html">Recipe Recommendations</a>
+        </li>
+        </ul>
+        </div>
+        </header>
+<head>
+    <title>Preferences Questionnaire</title>
+    <meta name="viewport" content="width=device-width, initial-scaled=1, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="preferences.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1 id="head"><p class="royal_acid">Preference questionnaire to filter recipes</p></h1>
+        <h2 id="subheading">Filling out this questionnaire about your child's comfort zone will allow optimal recipes to be recommended.</h2>
+    </div>
+
+    <form>
+        <div id="questions">
+            <div>
+                <label id="q1"><b>Can your child use a knife?</b></label> <br><br>
+                <input type="checkbox" name="checkbox" class="larger" id="yes1">Yes
+                <input type="checkbox" name="checkbox" class="larger" id="yes2">No<br><br>
+            </div>
+            <br>
+            <div>
+                <label id="q2"><b>Can your child use other sharp cutting tools (ex. skinpeeler, blender, cheese grater)?</b></label> <br><br>
+                <input type="checkbox" name="checkbox" class="larger" id="yes2">Yes
+                <input type="checkbox" name="checkbox" class="larger" id="no2">No<br><br>
+            </div>
+            <br>
+            <div>
+                <label id="q3"><b>Can your child use an oven?</b></label> <br><br>
+                <input type="checkbox" name="checkbox" class="larger" id="yes3">Yes
+                <input type="checkbox" name="checkbox" class="larger" id="no3">No<br><br>
+            </div>
+            <br>
+            <div>
+                <label id="q4"><b>Can your child use a stove?</b></label> <br><br>
+                <input type="checkbox" name="checkbox" class="larger" id="yes4">Yes
+                <input type="checkbox" name="checkbox" class="larger" id="no4">No<br><br>
+            </div>
+            <br>
+            <div>
+                <label id="q5"><b>Can your child handle raw meat/fish?</b></label> <br><br>
+                <input type="checkbox" name="checkbox" class="larger" id="yes5">Yes
+                <input type="checkbox" name="checkbox" class="larger" id="no5">No<br><br>
+            </div>
+        <br>
+        <div>
+            <label id="q6"><b>Can your child handle potential irritants such as peppers and onions?</b></label> <br><br>
+            <input type="checkbox" name="checkbox" class="larger" id="yes6">Yes
+            <input type="checkbox" name="checkbox" class="larger" id="no6">No
+        </div>
+        <br>
+
+        <form action="recommendations.html">
+            <input type="button" class="button" value="Submit" onclick="testrun()"/>
+        </form>
+    </form>
+
+</body>
+</html>
